@@ -1,4 +1,4 @@
-# Canvas Dark Mode
+# Canvas Dark Mode - Coming soon...
 
 A browser extension that adds dark mode to Canvas LMS
 
