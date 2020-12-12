@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "Adds dark mode to Canvas LMS",
   "permissions": [
-  "storage"
+  "storage",
+   "tabs"
+  ],
+  "host_permissions": [
+  "https://*.instructure.com/"
   ],
   "background": {
     "scripts": [
@@ -11,5 +15,15 @@
     ],
     "persistent": false
   },
+   "content_scripts": [
+    {
+      "matches": [
+        "https://*.instructure.com/",
+      ],
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ]
   "manifest_version": 3
 }
