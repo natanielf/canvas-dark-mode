@@ -1,4 +1,5 @@
 {
+  "manifest_version": 3
   "name": "Canvas Dark Mode",
   "version": "0.1.0",
   "description": "Adds dark mode to Canvas LMS",
@@ -25,5 +26,4 @@
       ]
     }
   ]
-  "manifest_version": 3
 }
