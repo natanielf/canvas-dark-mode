@@ -11,4 +11,5 @@ document.head.append(
   createElement('link', {
     rel: 'stylesheet',
     href: 'https://cdn.jsdelivr.net/gh/natanielf/canvas-dark-mode/bookmarklet/canvas-dark-mode.css'
-  }),
+  })
+)
