@@ -22,7 +22,8 @@
     background-color: #215479 !important;
 }
 
-.Button.Button--primary.submit_assignment_link,
+.Button.Button--primary,
+.submit_assignment_link,
 .btn.btn-primary {
     background-color: #2E6FA2 !important;
 }
