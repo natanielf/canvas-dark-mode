@@ -1,29 +1,26 @@
 {
-  "manifest_version": 3,
-  "name": "Canvas Dark Mode",
-  "version": "0.1.0",
-  "description": "Adds dark mode to Canvas LMS",
-  "permissions": [
+    "manifest_version": 3,
+    "name": "Canvas Dark Mode",
+    "version": "0.1.0",
+    "description": "Adds dark mode to Canvas LMS",
+    "permissions": [
   "storage",
    "tabs"
   ],
-  "host_permissions": [
+    "host_permissions": [
   "https://*.instructure.com/"
   ],
-  "background": {
-    "scripts": [
+    "background": {
+        "scripts": [
     "js/background.js"
     ],
-    "persistent": false
-  },
-   "content_scripts": [
-    {
-      "matches": [
-        "https://*.instructure.com/",
-      ],
-      "js": [
-        "js/content.js"
-      ]
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.instructure.com/"],
+            "css": ["css/style.css"],
+            "js": ["js/content.js"]
     }
   ]
 }
