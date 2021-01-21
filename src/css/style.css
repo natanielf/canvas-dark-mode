@@ -3,13 +3,35 @@
     color: #EEEEEE !important;
 }
 
-a:link,
-a:visited {
-    text-decoration: underline !important;
+.ic-app-header__main-navigation,
+.ic-app-header__menu-list-link,
+.menu-item-icon-container,
+.menu-item__text,
+.ic-icon-svg,
+.ic-icon-svg--dashboard,
+.ic-app-header__menu-list-link {
+    background-color: #2D3842 !important;
 }
 
-a:hover,
-a:actice,
-a:focus {
-    text-decoration: none !important;
+.StickyButton-styles__layout {
+    background-color: #215479 !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #1A1A1A !important;
+    border-radius: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555 !important;
+    border-radius: 8px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888888 !important;
 }
