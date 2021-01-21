@@ -1,6 +1,11 @@
-* {
-    background-color: #1A1A1A !important;
-    color: #EEEEEE !important;
+:root {
+    --bkgd-color: #1A1A1A;
+    --text-color: #EEEEEE;
+}
+
+:not(.context-list-toggle-box, .Grouping-styles__overlay, .Grouping-styles__withImage, .course-color-block, .course-list-favorite-icon, .icon-star) {
+    background-color: var(--bkgd-color) !important;
+    color: var(--text-color) !important;
 }
 
 .ic-app-header__main-navigation,
@@ -15,6 +20,25 @@
 
 .StickyButton-styles__layout {
     background-color: #215479 !important;
+}
+
+.Button.Button--primary.submit_assignment_link,
+.btn.btn-primary {
+    background-color: #2E6FA2 !important;
+}
+
+.active {
+    border-left-color: var(--text-color) !important;
+    border-left-style: solid !important;
+    border-left-width: medium !important;
+}
+
+.PlannerItem-styles__root.planner-item,
+.Grouping-styles__overlay,
+.Grouping-styles__withImage {
+    border-color: #555555 !important;
+    border-style: solid !important;
+    border-width: thin !important;
 }
 
 ::-webkit-scrollbar {
